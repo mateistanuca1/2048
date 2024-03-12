@@ -1,0 +1,21 @@
+2048:
+
+    Am o tabla de joc (int) 4X4 si 16 ferestre separate care afiseaza fiecare numar.
+La inceputul jocului, tabla si scoreboardul sunt initializate si raman constant 
+peste stdscr. Meniul este afisat de la inceput, iar cand am facut o selectie,
+meniul este sters.
+
+    Timpul este updatat constant de fiecare data cand se trece prin while, si la 
+fel si timpul pentru miscarea automata (un contor creste la fiecare trecere prin
+while si cand ajunge la 1500000 ~ 10 sec face miscarea automata).
+
+    Imbinarea se realizeaza mai intai prin unirea celulelor si dupa mutarea lor.
+
+    Folosesc culori in functie de valoarea unei celule pentru a observa mai 
+usor imbinarile.
+
+Functii extra : 
+    1. culori
+    2. salvarea tablei si scorului intr-un fisier binar(fisierul binal se
+    creeaza la comanda make si este sters la comanda make clean)
+
